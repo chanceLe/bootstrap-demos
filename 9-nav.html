@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title> Demo 8</title>
+    <script src="./js/jquery-3.1.1.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+  </head>
+  <body>
+    <!--导航条  -->
+    <ul class="nav nav-tabs" role="tablist">
+      <li role="presentation" class="active"> <a href="#">Home</a></li>
+      <li role="presentation"><a href="#">Profile</a></li>
+      <li role="presentation"><a href="#">Messages</a></li>
+    </ul>
+    <hr>
+    <!-- 胶囊式导航条 -->
+    <ul class="nav nav-pills" roll="tablist">
+      <li role="presentation" class="active"> <a href="#">Home</a></li>
+      <li role="presentation"><a href="#">Profile</a></li>
+      <li role="presentation"><a href="#">Messages</a></li>
+    </ul>
+    <hr>
+    <!--垂直方向的pill导航条 -->
+    <ul class="nav nav-pills nav-stacked" roll="tablist">
+      <li role="presentation" class="active"> <a href="#">Home</a></li>
+      <li role="presentation"><a href="#">Profile</a></li>
+      <li role="presentation"><a href="#">Messages</a></li>
+    </ul>
+    <hr>
+    <!-- .nav-justified -->
+    <ul class="nav nav-pills nav-justified" roll="tablist">
+      <li role="presentation" class="active"> <a href="#">Home</a></li>
+      <li role="presentation"><a href="#">Profile</a></li>
+      <li role="presentation"><a href="#">Messages</a></li>
+    </ul>
+    <hr>
+    <!--二级导航,带下拉菜单的标签页 -->
+    <div class="container">
+      <ul class="nav nav-pills" role="tablist">
+        <li role="presentation" class="active"> <a href="#">Home</a></li>
+        <li role="presentation"><a href="#">Profile</a></li>
+        <li role="presentation" class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">
+          Dropdown <span class="caret"></span>
+        </a>
+        <ul class="dropdown-menu" role="menu">
+          <li><a href="#">Action</a></li>
+          <li><a href="#">Another action</a></li>
+          <li><a href="#">Something else here</a></li>
+          <li class="divder"></li>
+          <li><a href="#">Separated</a></li>
+        </ul>
+      </li>
+      </ul>
+    </div>
+
+    <hr>
+    <!-- 导航条 -->
+    <div class="container">
+      <div class="navbar navbar-default">
+        <ul class="nav navbar-nav">
+          <li><a href="#">首页</a></li>
+          <li><a href="#">图片</a></li>
+          <li><a href="#">音乐</a></li>
+          <li><a href="#">视频</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <hr>
+    <!-- 品牌图标 -->
+    <div class="container">
+      <div class="navbar navbar-default">
+        <div class="navbar-header">
+          <a href="#" class="navbar-brand"><span class="glyphicon glyphicon-align-justify"></span></a>
+        </div>
+        <ul class="nav navbar-nav">
+          <li> <a href="#">首页</a></li>
+          <li> <a href="#">图片</a></li>
+          <li> <a href="#">音乐</a></li>
+          <li> <a href="#">视频</a></li>
+        </ul>
+      </div>
+    </div>
+  <hr>
+    <!-- 导航条 表单 -->
+    <div class="container">
+      <div class="navbar navbar-default">
+        <div class="navbar-header">
+          <a href="#" class="navbar-brand"><span class="glyphicon glyphicon-align-justify"></span></a>
+        </div>
+        <ul class="nav navbar-nav">
+          <li> <a href="#">首页</a></li>
+          <li> <a href="#">图片</a></li>
+          <li> <a href="#">音乐</a></li>
+          <li> <a href="#">视频</a></li>
+        </ul>
+        <form class="navbar-form">
+          <div class="form-group">
+            <input type="text" class="form-control" placeholder="搜索">
+          </div>
+          <button type="button" class="btn btn-default"><span class="glyphicon glyphicon-search"></span></button>
+        </form>
+      </div>
+    </div>
+   <hr>
+   <!-- 导航条 按钮0 -->
+   <div class="container">
+     <div class="navbar navbar-default">
+       <div class="navbar-header">
+         <a href="#" class="navbar-brand"><span class="glyphicon glyphicon-align-justify"></span></a>
+       </div>
+       <ul class="nav navbar-nav">
+         <li> <a href="#">首页</a></li>
+         <li> <a href="#">图片</a></li>
+         <li> <a href="#">音乐</a></li>
+         <li> <a href="#">视频</a></li>
+       </ul>
+       <form class="navbar-form">
+         <button type="button" class="btn btn-default navbar-btn"><span class="glyphicon glyphicon-search"></span></button>
+       </form>
+     </div>
+   </div>
+    <hr>
+    <!-- 导航条文本和链接 -->
+    <p class="navbar-text">这就是导航条中的文本<a href="#" class="navbar-link">链接</a></p>
+
+   <hr>
+   <!-- 固定导航条  .navbar-fixed-top .navbar-fixed-bottom .navbar-static-top-->
+   <div class="container">
+     <div class="navbar navbar-default navbar-fixed-top">
+       <div class="navbar-header">
+         <a href="#" class="navbar-brand"><span class="glyphicon glyphicon-align-justify"></span></a>
+       </div>
+       <ul class="nav navbar-nav">
+         <li> <a href="#">首页</a></li>
+         <li> <a href="#">图片</a></li>
+         <li> <a href="#">音乐</a></li>
+         <li> <a href="#">视频</a></li>
+       </ul>
+       <form class="navbar-form">
+         <div class="form-group">
+           <input type="text" class="form-control" placeholder="搜索">
+         </div>
+         <button type="button" class="btn btn-default"><span class="glyphicon glyphicon-search"></span></button>
+       </form>
+     </div>
+   </div>
+  <hr>
+  <!-- 响应式导航条 -->
+  <div class="container">
+    <div class="navbar navbar-default navbar-fixed-top">
+      <div class="navbar-header">
+       <button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
+         <span class="glyphicon glyphicon-align-justify"></span>
+       </button>
+      </div>
+      <div class="collapse navbar-collapse navbar-responsive-collapse">
+      <ul class="nav navbar-nav">
+        <li> <a href="#">首页</a></li>
+        <li> <a href="#">图片</a></li>
+        <li> <a href="#">音乐</a></li>
+        <li> <a href="#">视频</a></li>
+      </ul>
+    </div>
+    </div>
+  </div>
+
+ <hr>
+ <!-- 反色导航条 -->
+ <div class="container">
+   <div class="navbar navbar-inverse">
+     <div class="navbar-header">
+      <button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
+        <span class="glyphicon glyphicon-align-justify"></span>
+      </button>
+     </div>
+     <div class="collapse navbar-collapse navbar-responsive-collapse">
+     <ul class="nav navbar-nav">
+       <li> <a href="#">首页(反色)</a></li>
+       <li> <a href="#">图片</a></li>
+       <li> <a href="#">音乐</a></li>
+       <li> <a href="#">视频</a></li>
+     </ul>
+   </div>
+   </div>
+ </div>
+
+ <hr>
+ <!-- 分页导航条 -->
+  <nav>
+    <ul class="pagination">
+      <li><a href="#">&laquo;</a></li>
+      <li><a href="#">1</a></li>
+      <li><a href="#">2</a></li>
+      <li><a href="#">3</a></li>
+      <li><a href="#">4</a></li>
+      <li><a href="#">5</a></li>
+      <li><a href="#">&raquo;</a></li>
+    </ul>
+  </nav>
+  <!-- 禁用和激活状态 -->
+  <!-- 链接在不同情况下可以定制.给禁用的链接添加 disabled.  给当前添加active-->
+  <div class="container">
+    <nav>
+      <ul class="pagination">
+        <li class="diabled"><a href="#">&laquo;</a></li>
+        <li class="active"><a href="#">1<span class="sr-only">(current)</span></a></li>
+        <li><a href="#">2</a></li>
+        <li><a href="#">3</a></li>
+        <li><a href="#">4</a></li>
+        <li><a href="#">5</a></li>
+        <li><a href="#">&raquo;</a></li>
+      </ul>
+    </nav>
+  </div>
+
+    <hr>
+  <!-- 尺寸 -->
+  <nav>
+    <ul class="pagination pagination-lg">
+      <li><a href="#">1(pagination-lg)</a></li>
+      <li><a href="#">2</a></li>
+      <li><a href="#">3</a></li>
+    </ul>
+  </nav>
+  <nav>
+    <ul class="pagination">
+      <li><a href="#">1(normal)</a></li>
+      <li><a href="#">2</a></li>
+      <li><a href="#">3</a></li>
+    </ul>
+  </nav>
+  <nav>
+    <ul class="pagination pagination-sm">
+      <li><a href="#">1(pagination-sm)</a></li>
+      <li><a href="#">2</a></li>
+      <li><a href="#">3</a></li>
+    </ul>
+  </nav>
+  </body>
+</html>

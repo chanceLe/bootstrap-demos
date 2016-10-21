@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Demo 6</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+  </head>
+  <body>
+    <!-- 校验状态 -->
+    <div class="form-group has-success">
+      <label class="control-label" for="inputSuccess1">Input with sucess</label>
+      <input type="text" class="form-control" id="inputSuccess1">
+    </div>
+
+    <div class="form-group has-warning">
+      <label class="control-label" for="inputWarning1">Input with warning</label>
+      <input type="text" class="form-control" id="inputWarning1">
+
+    </div>
+
+    <div class="form-group has-error">
+      <label class="control-label" for="inputError1">Input with Error</label>
+      <input type="text" class="form-control" id="inputError1">
+
+    </div>
+
+<hr>
+
+    <!-- 添加额外的图标 -->
+    <div class="form-group has-sucess has-feedback">
+      <label class="control-label" for="inputSucess2">Input with sucess</label>
+      <input type="text" class="form-control" id="inputSucess2">
+      <span class="glyphicon glyphicon-ok form-control-feedback"></span>
+    </div>
+
+    <div class="form-group has-warning has-feedback">
+      <label class="control-label" for="inputWarning2">Input with warning</label>
+      <input type="text" class="form-control" id="inputWarning2">
+      <span class="glyphicon glyphicon-warning-sign form-control-feedback"></span>
+    </div>
+
+    <div class="form-group has-error has-feedback">
+      <label class="control-label" for="inputError2">Input with Error</label>
+      <input type="text" class="form-control" id="inputError2">
+      <span class="glyphicon glyphicon-remove form-control-feedback"></span>
+    </div>
+
+    <hr>
+    <!-- 禁用的输入框 -->
+    <div class="container">
+      <div class="form-horizontal">
+        <input type="text" disabled class="form-control">
+      </div>
+    </div>
+
+    <!-- 表单焦点 -->
+    <div class="form-horizontal">
+      <div class="form-group">
+        <label class="control-label col-md-1">用户名:</label>
+        <div class="col-md-3">
+          <input type="text" class="form-control" placeholder="请输入邮箱" autofocus=":focus">
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
